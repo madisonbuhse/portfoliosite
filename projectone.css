@@ -310,4 +310,79 @@ p {
 
 .nexttxt {
     width: 25%;
+    margin-left: 10%;
+}
+
+.lessontxt {
+    width: 25%;
+}
+
+.figma {
+    margin-right: 250px;
+    margin-bottom: 200px;
+}
+
+.final {
+    justify-content: center;
+}
+
+.footer ul {
+    line-height: 2rem;
+    list-style: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .userdata {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .research {
+        height: 1100px;
+    }
+    .introtext {
+        margin-top: 0;
+    }
+    .rowhifi {
+        display: flex;
+        flex-direction: row;
+    }
+    .hifirow {
+        margin-top: 500px;
+    }
+    .hifitext {
+        margin-top: -300px;
+    }
+    .rowfinal {
+        margin-top: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .finalimg {
+        width: 50%;
+        height: auto;
+        margin-right: auto;
+    }
+    .rowfinal {
+        justify-content: center;
+    }
+    .finaltext {
+        margin-top: 0;
+        width: 100%;
+    }
+    .lastimg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .hifi {
+        width: 30%;
+        height: auto;
+    }
+    .hifitext {
+        width: 100%;
+    }
+    .hifirow {
+        margin-top: 0;
+    }
 }
