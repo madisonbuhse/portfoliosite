@@ -1,0 +1,271 @@
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.collapse {
+    background-color:rgb(22, 22, 22);
+}
+
+.navbar {
+    height: 100px;
+    color: white;
+    background-color: rgb(22, 22, 22) !important;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-item {
+    margin: 15px 30px;
+}
+
+.hero {
+    height: 100vh-100px;
+    color: white;
+    width: 100%;
+}
+
+.rowhero {
+    margin: 250px 15%;
+}
+
+.herotext {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.heroimg {
+    height: 600px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btncustom {
+    background-color: transparent;
+    border-color: white;
+    width: 180px;
+    margin: 30px 15px;
+    padding: 10px 40px;
+    border-radius: 60px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.btncustom:hover {
+    background-color: white;
+    color: black;
+}
+
+.aboutme {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.icon {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.header {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.header a {
+    color: white;
+}
+
+.top {
+    margin-top: 150px;
+}
+
+.mainhead {
+    margin-bottom: 100px;
+}
+
+.education {
+    width: 550px;
+    padding: 50px 75px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+.educationtext {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.rowabout {
+    display: flex
+}
+
+.aboutme-text {
+    text-align: left;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.skills {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+article {
+    display: flex;
+    margin: 30px;
+    width: 200px;
+}
+
+.frontend {
+    width: 850px;
+    height: 450px;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.article-container {
+    margin-top: 20px;
+    width: 800px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.rowskills {
+    justify-content: center;
+}
+
+.projects {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.rowprojects {
+    justify-content: center;
+}
+
+.project {
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 40px 70px;
+    margin: 30px;
+}
+
+.project img {
+    height: 450px;
+}
+
+.one {
+    background-color:rgba(110, 124, 247, .25);
+}
+
+.two {
+    background-color: rgba(41, 43, 71, .5);
+}
+
+.three {
+    background-color: rgba(12, 38, 84, .5)
+}
+
+.projecthead {
+    margin-top: 30px;
+}
+
+.btnproject {
+    width: 200px;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.rowcontact {
+    width: 100%;
+    justify-content: center;
+}
+
+.rowwrapper {
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.rowitem {
+    padding: 30px;
+}
+
+.footer {
+    margin-top: 200px;
+    color: rgb(167, 167, 167);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1800px) {
+    .rowhero {
+        justify-content: center;
+    }
+    .herotext {
+        margin: 100px auto;
+    }
+    .rowabout {
+        width: 100%;
+        justify-content: center;
+    }
+    .education {
+        justify-content: center;
+        margin: auto;
+    }
+    .aboutme-text {
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .aboutme-text {
+        text-align: center;
+    }
+}
