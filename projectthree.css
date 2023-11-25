@@ -172,10 +172,27 @@ li {
 
 .screen {
     width: 20%;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 100px;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.deskscreen {
+    width: 40%;
+    margin: 100px 20px;
+}
+
+.desk {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowcustom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 #process {
@@ -268,6 +285,10 @@ li {
     margin-top: 250px;
 }
 
+.testingcustom {
+    margin-top: 375px;
+}
+
 #prototype {
     margin: 100px 20%;
     line-height: 3rem;
@@ -308,6 +329,11 @@ li {
 #footer ul {
     line-height: 2rem;
     list-style: none;
+}
+
+.note {
+    text-align: center;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 1600px) {
